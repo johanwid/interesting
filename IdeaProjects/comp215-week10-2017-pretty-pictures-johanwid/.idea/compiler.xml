@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <option name="DEFAULT_COMPILER" value="error-prone" />
+    <bytecodeTargetLevel>
+      <module name="comp215-code_main" target="1.8" />
+      <module name="comp215-code_test" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
