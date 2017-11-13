@@ -1,5 +1,4 @@
 package edu.rice.prettypictures;
 
-public class Scale {
-
+public interface Constant {
 }
