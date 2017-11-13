@@ -277,8 +277,7 @@ public interface argFuncs extends FunctionTree {
     }
 
     public double avhelper(double c) {
-      double av = (c >= 0) ? c : (c * -1);
-      return av;
+      return (c >= 0) ? c : (c * -1);
     }
 
     @Override
