@@ -3,8 +3,6 @@ package edu.rice.prettypictures;
 
 public interface argFuncs extends FunctionTree {
 
-  Coord evaluate(double x, double y);
-
   /*
       creates a coord for target pixel x.
   */
@@ -39,7 +37,6 @@ public interface argFuncs extends FunctionTree {
     public Coord evaluate(double x, double y) {
       return new Coord(y, y, y);
     }
-
   }
 
   /*
