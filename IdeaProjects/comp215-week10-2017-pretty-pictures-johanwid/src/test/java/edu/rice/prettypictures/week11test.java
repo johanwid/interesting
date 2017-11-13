@@ -1,6 +1,8 @@
 
 package edu.rice.prettypictures;
 
+//tests
+
 import org.junit.Test;
 import java.util.function.Function;
 import java.util.function.Predicate;
