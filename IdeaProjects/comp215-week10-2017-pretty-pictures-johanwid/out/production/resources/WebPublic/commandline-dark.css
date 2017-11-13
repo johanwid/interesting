@@ -1,0 +1,64 @@
+#header {
+   display: none;
+}
+#appbar {
+    display: none;
+}
+#goButton {
+    display: none;
+}
+#textOutput {
+  position: fixed;
+  left: 10px;
+  right: 10px;
+  top: 10px;
+  bottom: 50px;
+
+  background-color: #000;
+  color: #fff;
+  font-family: "Courier New", monospace;
+  font-size: 15px;
+  line-height: 20px;
+
+  vertical-align: bottom;
+  overflow-y: auto;
+  display: inline-block;
+  padding: 10px;
+}
+#footer {
+  position: fixed;
+  left: 10px;
+  right: 10px;
+  bottom: 10px;
+  height: 30px;
+
+  z-index: 2;
+  background-color: #000;
+  color: #fff;
+}
+#footer div {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+#commandLine{
+  width: 100%;
+  height: 30px;
+
+  background-color:#000;
+  color:#fff;
+  font-family: "Courier New", monospace;
+}
+body,html {
+    height:100%;
+    background-color:#eee;
+}
+body,buttons,html,input,textarea {
+    -webkit-font-smoothing:antialiased;
+    -moz-osx-font-smoothing:grayscale;
+    text-shadow:0px 1px 1px rgba(0,0,0,.004)
+}
+/* Using !important is BAD PRACTICE. Do not do this. */
+input::-webkit-input-placeholder { color: #fff !important; }
+input::-moz-placeholder { color: #fff !important; }
+input:-moz-placeholder { color: #fff !important; }
+input:-ms-input-placeholder { color: #fff !important; }
